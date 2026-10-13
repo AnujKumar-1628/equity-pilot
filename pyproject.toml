@@ -1,0 +1,17 @@
+[project]
+name = "equity-pilot"
+version = "0.1.0"
+description = "Autonomous multi-agent equity research and financial analysis engine"
+readme = "README.md"
+authors = [
+    { name = "AnujKumar-1628", email = "anujmahlawat16@gmail.com" }
+]
+requires-python = ">=3.13"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+equity-pilot = "equity_pilot.cli:main"
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
